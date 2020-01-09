@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class ThinDivider extends StatelessWidget {
   final double height;
   final double width;
-  final double color;
+  final Color color;
 
   ThinDivider({this.height, this.width, this.color});
 

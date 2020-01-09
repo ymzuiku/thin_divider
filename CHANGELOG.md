@@ -1,3 +1,5 @@
+## [1.0.4] - Fix color
+
 ## [1.0.3] - Update Readme
 
 ## [1.0.2] - Add Readme
