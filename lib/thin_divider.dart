@@ -1,5 +1,6 @@
 library thin_divider;
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class ThinDivider extends StatelessWidget {
@@ -13,7 +14,7 @@ class ThinDivider extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: color ?? Theme.of(context).dividerColor,
-      height: height ?? 0.5,
+      height: height ?? (kIsWeb ? 1 : 0.5),
       width: width ?? double.infinity,
       child: SizedBox(),
     );
